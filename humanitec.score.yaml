@@ -4,7 +4,7 @@ apiVersion: humanitec.org/v1b1
 spec:
   ingress:
     rules:
-      "\${resources.dns}": # This is the DNS record that we defined in the resources section
+      "${resources.dns}": # This is the DNS record that we defined in the resources section
         http:
           "/":
             type: prefix
